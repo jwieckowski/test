@@ -1,0 +1,2 @@
+# test
+Testowe repozytorium zajęcia
