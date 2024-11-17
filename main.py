@@ -162,4 +162,63 @@ lista_liczb = [9, 6, 8, 2, 5, 6]
 
 # print('Wiek został podany poprawnie')
 
-f = open ('file.txt', 'w', encoding ="utf-8")
+# f = open ('file.txt', 'a', encoding ="utf-8")
+# with open ('file.txt', 'a', encoding ="utf-8") as plik:
+#     # operacje na pliku
+#     plik.write('Nowy tekst')
+
+# import os
+# import json
+
+# a = 1
+# a = 2
+# slownik = {
+#     'a' : '123'
+# }
+
+# slownik_json = {
+#     "a": "123",
+#     "b": [1, 2, 3],
+#     "c": {
+#         "d": 1,
+#         "e": "3"
+#     }
+# }
+
+# json_data = json.dumps(slownik_json)
+# print(json_data)
+
+# original = " Python strings are COOL! "
+# lower_cased = original.lower()
+# stripped = original.strip()
+# stripped_lower_cased = original.lower().strip()
+
+# # Sprawdźmy czy otrzymaliśmy poprawny wynik
+# assert lower_cased == " python strings are cool! "
+# assert stripped == "Python strings are COOL!"
+# assert stripped_lower_cased == "python strings are cool!"
+
+# ugly = " tiTle of My new Book\n\n"
+
+# pretty = ugly.strip().title()
+
+# assert pretty == "Title Of My New Book"
+
+# verb = "is"
+# language = "Python"
+# punctuation = "!"
+
+# # Twoja implementacja
+# sentence = f"Learning {language} {verb} fun{punctuation}"
+# sentence = "Learning {} {} fun{}".format(language, verb, punctuation)
+
+# # Sprawdźmy czy otrzymaliśmy poprawny wynik
+# assert sentence == "Learning Python is fun!"
+
+a = 2
+b = 3
+c = 2
+
+result = 6*(a**3) - ((8*(b**2))/(4*c)) + 11
+
+assert result == 50
